@@ -40,7 +40,7 @@ const formState = reactive({
 });
 
 let objectJson = {};
-const validator = (rule: any, value: string) => {
+const validator = (_: any, value: string) => {
   if (!value) return Promise.resolve();
   try {
     objectJson = JSON.parse(value);
