@@ -63,7 +63,7 @@ import {
   message,
 } from "ant-design-vue";
 import { QuestionCircleOutlined } from "@ant-design/icons-vue";
-import type { DataSourceType } from "/@/types";
+import type { DataSourceType } from "../../types";
 
 const props = defineProps<{ data: DataSourceType[] }>();
 const emit = defineEmits(["update:data"]);

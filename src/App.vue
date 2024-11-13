@@ -1,9 +1,9 @@
 <template>
   <div class="wrapper">
-    <div class="head">
+    <!-- <div class="head">
       <div class="logo"></div>
       <h2 style="margin-bottom: 0; color: #fff">可视化JSON</h2>
-    </div>
+    </div> -->
     <div class="body">
       <div class="input-wrapper">
         <json-form ref="jsonInputRef" @change="onDataUpdated" />
@@ -74,23 +74,24 @@ function onEditOk(data: any) {
   display: flex;
   flex-direction: column;
 
-  .head {
-    flex: 0 0 64px;
-    background-color: #87cefa;
-    // background-color: #6495ed;
-    display: flex;
-    align-items: center;
-    padding: 0 16px;
-    color: #fff;
+  // .head {
+  //   flex: 0 0 64px;
+  //   background-color: #87cefa;
+  //   // background-color: #6495ed;
+  //   display: flex;
+  //   align-items: center;
+  //   padding: 0 16px;
+  //   color: #fff;
+  //   border-bottom: 1px solid #eee;
 
-    .logo {
-      width: 32px;
-      height: 32px;
-      background-image: url("logo-bg.svg");
-      background-size: 32px;
-      margin-right: 16px;
-    }
-  }
+  //   .logo {
+  //     width: 32px;
+  //     height: 32px;
+  //     background-image: url("logo-bg.svg");
+  //     background-size: 32px;
+  //     margin-right: 16px;
+  //   }
+  // }
 
   .body {
     flex: 1;
@@ -98,7 +99,6 @@ function onEditOk(data: any) {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    border-top: 1px solid #eee;
 
     .input-wrapper {
       flex: 0 0 300px;

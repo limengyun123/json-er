@@ -19,8 +19,8 @@ import { ref } from "vue";
 import { isArray, isObject } from "lodash";
 import { Modal as AModal } from "ant-design-vue";
 import EditTable from "./table.vue";
-import type { DataSourceType } from "/@/types";
-import { NodeDataType } from "/@/types";
+import type { DataSourceType } from "../../types";
+import { NodeDataType } from "../../types";
 
 const emit = defineEmits(["ok"]);
 
