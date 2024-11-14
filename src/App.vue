@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <div class="head">
-      <div class="logo"></div>
+      <img src="/logo-bg.svg" class="logo" />
       <h2 style="margin-bottom: 0; color: #fff">可视化JSON</h2>
     </div>
     <div class="body">
@@ -86,8 +86,6 @@ function onEditOk(data: any) {
     .logo {
       width: 32px;
       height: 32px;
-      background-image: url("logo-bg.svg");
-      background-size: 32px;
       margin-right: 16px;
     }
   }
